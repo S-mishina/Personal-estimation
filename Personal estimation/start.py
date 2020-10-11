@@ -45,7 +45,7 @@ today=0#ファイル作成時のカウント変数
 n=1#ファイル作成時のループ変数
 
 def message():#開始時の通知関数
-    line_notify_token = 'Zv48zNawqu55gm70vfoPp1hxYA1qvMC5CrYs3CuVTzW'
+    line_notify_token = ''
     line_notify_api = 'https://notify-api.line.me/api/notify'
     message = '監視カメラを起動しました。'
     payload = {'message': message}
@@ -54,7 +54,7 @@ def message():#開始時の通知関数
     print('監視カメラを起動しました')
 
 def message1():#終了時の通知関数
-    line_notify_token = 'Zv48zNawqu55gm70vfoPp1hxYA1qvMC5CrYs3CuVTzW'
+    line_notify_token = ''
     line_notify_api = 'https://notify-api.line.me/api/notify'
     message = '監視カメラを終了します'
     payload = {'message': message}
